@@ -1,12 +1,10 @@
-import Carousel from 'react-bootstrap/Carousel'
+import TuCompraImages from './Images'
+import styles from './TuCompra.module.css'
 function TuCompra(){
     return(
-        <Carousel variant='dark'>
-            <Carousel.Item>
-                <img
-                src="/public/favicon.ico"/>
-            </Carousel.Item>
-        </Carousel>
+        <div className={styles.TuCompraContainer}>
+            <TuCompraImages/>
+        </div>
     )
 }
 

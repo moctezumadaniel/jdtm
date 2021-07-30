@@ -19,7 +19,7 @@ function TuCompraImages(){
                 <img
                 className="d-block w-100"
                 alt="PRIMER SLIDE"
-                src="/favicon.ico"
+                src="/TuCompra/1.jpg"
                 />
                 <Carousel.Caption>
                     <h3>Primer Imágen</h3>
@@ -30,7 +30,7 @@ function TuCompraImages(){
                 <img
                 className="d-block w-100"
                 alt="PRIMER SLIDE"
-                src="/favicon.ico"
+                src="/TuCompra/2.jpg"
                 />
                 <Carousel.Caption>
                     <h3>Segunda Imágen</h3>
@@ -41,7 +41,7 @@ function TuCompraImages(){
                 <img
                 className="d-block w-100"
                 alt="PRIMER SLIDE"
-                src="/favicon.ico"
+                src="/TuCompra/3.jpg"
                 />
                 <Carousel.Caption>
                     <h3>Segunda Imágen</h3>
@@ -52,7 +52,7 @@ function TuCompraImages(){
                 <img
                 className="d-block w-100"
                 alt="PRIMER SLIDE"
-                src="/favicon.ico"
+                src="/TuCompra/4.jpg"
                 />
                 <Carousel.Caption>
                     <h3>Segunda Imágen</h3>
@@ -63,7 +63,7 @@ function TuCompraImages(){
                 <img
                 className="d-block w-100"
                 alt="PRIMER SLIDE"
-                src="/favicon.ico"
+                src="/TuCompra/1.jpg"
                 />
                 <Carousel.Caption>
                     <h3>Segunda Imágen</h3>
@@ -73,7 +73,7 @@ function TuCompraImages(){
             <div className={styles.AppButtonsContainer}>
             <Button variant="primary"
             className={styles.AppButton}
-            onClick={()=>goToApp()}>Visitar Aplicación
+            onClick={()=>goToApp()}>Visitar
             </Button>
             <Button variant="dark"
             className={styles.AppButton}

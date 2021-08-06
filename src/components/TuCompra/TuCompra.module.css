@@ -1,12 +1,9 @@
 .TuCompraContainer{
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
 }
 .Carousel{
-    display: flex;
-    flex-direction: column;
-    width: 400px;
+    width: 98vw;
+    max-width: 720px;
     margin: 10px;
 
 }
@@ -22,4 +19,14 @@
 }
 .AppButton{
     margin: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+@media (max-width:320px) {
+    .AppButton{
+        width: 100%;
+        margin: 0px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
 }

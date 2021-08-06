@@ -1,15 +1,13 @@
-import './App.css';
+import styles from './App.css';
 import Navbar from './components/Navbar';
-import TuCompra from './components/TuCompra';
 import "bootstrap/dist/css/bootstrap.min.css"
-import TuServicio from './components/TuServicio';
+import Projects from './components/Projects';
 
 function App() {
   return (
-    <div className="App">
+    <div className={styles.App}>
       <Navbar/>
-      <TuCompra/>
-      <TuServicio/>
+      <Projects/>
     </div>
   );
 }

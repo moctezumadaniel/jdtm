@@ -73,7 +73,8 @@ function TuCompraImages(){
             <div className={styles.AppButtonsContainer}>
             <Button variant="primary"
             className={styles.AppButton}
-            onClick={()=>goToApp()}>Visitar
+            onClick={()=>goToApp()}>
+                Visitar Aplicación
             </Button>
             <Button variant="dark"
             className={styles.AppButton}

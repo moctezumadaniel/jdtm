@@ -1,3 +1,12 @@
 .NavBarContainer{
-    background-color: black;
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: larger;
+    font-weight: 600;
+    padding: 10px;
+    top: 0px;
+    position: sticky;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
 }

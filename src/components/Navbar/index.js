@@ -2,7 +2,7 @@ import styles from './navBar.module.css'
 function Navbar (){
     return(
         <div className={styles.NavBarContainer}>
-            LA PAGINA DE NAVEGACION FUNCIONA
+            Daniel Moctezuma
         </div>
     )
 }

@@ -1,0 +1,14 @@
+.CurriculumContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: center;
+    align-content: center;
+}
+
+.CurriculumItem{
+    width: 720px;
+    justify-content: center;
+    align-content: center;
+    
+}

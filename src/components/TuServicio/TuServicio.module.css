@@ -21,6 +21,7 @@
     margin: 10px;
     margin-left: 2px;
     margin-right: 2px;
+    font-size: larger;
 }
 @media (max-width:320px) {
     .AppButton{

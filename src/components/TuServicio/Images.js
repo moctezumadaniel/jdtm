@@ -13,7 +13,7 @@ function TuServicioImages(){
     }
     return(
         <div className={styles.Carousel}>
-        <Carousel >
+        <Carousel fade interval={10000}>
             <h1>Tu Servicio</h1>
             <Carousel.Item>
                 <img
@@ -58,17 +58,6 @@ function TuServicioImages(){
                     <h3>Segunda Imágen</h3>
                 </Carousel.Caption>
             </Carousel.Item>
-
-            <Carousel.Item>
-                <img
-                className="d-block w-100"
-                alt="PRIMER SLIDE"
-                src="/TuServicio/1.jpg"
-                />
-                <Carousel.Caption>
-                    <h3>Segunda Imágen</h3>
-                </Carousel.Caption>
-            </Carousel.Item>
         </Carousel>
             <div className={styles.AppButtonsContainer}>
             <Button variant="primary"
@@ -81,13 +70,22 @@ function TuServicioImages(){
                 {`</> Ir al Código`}
             </Button>{' '}
             </div>
-            <Accordion>
+            <Accordion defaultActiveKey='0'>
             <Accordion.Item>
                 <Accordion.Header >
-                    Descripcion completa del proyecto
+                    Descripcion del proyecto TuServicio
                 </Accordion.Header>
                 <Accordion.Body>
-                    Esta es la descripcion completa de tu compra
+                    Este proyecto esta construido con Nextjs, framework basado en Reactjs,
+                    para el Front End y API's, conectado a una base de datos MongoDB con ayuda de mongoosejs;
+                    y Redux para el manejo del estado de la aplicación.{<br/>}{<br/>}
+                    Resumen de tecnologias utilizadas:{<br/>}
+                    -Nextjs {<br/>}
+                    -CSS{<br/>}
+                    -MongoDB{<br/>}
+                    -Mongoosejs{<br/>}
+                    -React-redux{<br/>}
+                    -Nextjs API Routes{<br/>}
                 </Accordion.Body>
 
             </Accordion.Item>

@@ -13,7 +13,7 @@ function TuCompraImages(){
     }
     return(
         <div className={styles.Carousel}>
-        <Carousel >
+        <Carousel fade interval={10000}>
             <h1>Tu Compra</h1>
             <Carousel.Item>
                 <img
@@ -82,10 +82,10 @@ function TuCompraImages(){
                 {`</> Ir al Código`}
             </Button>{' '}
             </div>
-            <Accordion>
+            <Accordion defaultActiveKey='0'>
             <Accordion.Item>
                 <Accordion.Header >
-                    Descripcion completa del proyecto
+                    Descripcion del proyecto TuCompra
                 </Accordion.Header>
                 <Accordion.Body>
                     Esta es la descripcion completa de tu compra

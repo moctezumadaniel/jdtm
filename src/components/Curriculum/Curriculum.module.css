@@ -1,14 +1,23 @@
 .CurriculumContainer{
     display: flex;
-    flex-direction: column;
-    margin: 10px;
     justify-content: center;
-    align-content: center;
+    margin: 10px;
+}
+
+.CurriculumItemsContainer{
+    width: 1460px;
 }
 
 .CurriculumItem{
     width: 720px;
     justify-content: center;
     align-content: center;
+    
+}
+
+@media (max-width:1494px) {
+    .CurriculumItemsContainer{
+        width: 720px;
+    }
     
 }

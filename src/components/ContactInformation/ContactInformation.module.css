@@ -1,0 +1,27 @@
+.ContactInformationContainer{
+    display: flex;
+    justify-content: center;
+    margin:10px;
+}
+
+.ContactInformation{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 720px;
+}
+
+.LinkedContactItem{
+    cursor: pointer;
+    font-size: larger;
+    margin: 10px;
+}
+
+.ContactItem{
+    font-size: larger;
+    margin: 10px;
+}
+
+.ContactImage{
+    width: 25px;
+    margin-right: 3px;
+}

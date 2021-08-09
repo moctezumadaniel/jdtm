@@ -7,7 +7,7 @@
 .ContactInformation{
     display: flex;
     flex-wrap: wrap;
-    max-width: 720px;
+    max-width: 1460px;
 }
 
 .LinkedContactItem{
@@ -24,4 +24,11 @@
 .ContactImage{
     width: 25px;
     margin-right: 3px;
+}
+
+@media (max-width:1494px) {
+    .ContactInformation{
+        max-width: 720px;
+    }
+    
 }

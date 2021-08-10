@@ -13,8 +13,9 @@ function TuServicioImages(){
     }
     return(
         <div className={styles.Carousel}>
-        <Carousel fade interval={10000}>
-            <h1>Tu Servicio</h1>
+        <h1>Tu Servicio</h1>
+        <Carousel interval={10000}>
+            
             <Carousel.Item>
                 <img
                 className="d-block w-100"

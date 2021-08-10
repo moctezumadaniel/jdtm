@@ -4,6 +4,12 @@
     margin: 10px;
 }
 
+.CurriculumTitleContainer{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+
 .CurriculumItemsContainer{
     width: 1460px;
 }

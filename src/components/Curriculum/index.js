@@ -5,8 +5,10 @@ function Curriculum (){
     return (
         <div className={styles.CurriculumContainer}>
             <div className={styles.CurriculumItemsContainer}>
-                <h1>Currículum</h1>
-                <Button>Descargar PDF</Button>
+                <div className={styles.CurriculumTitleContainer}>
+                    <h1>Currículum</h1>
+                    <Button>Descargar PDF</Button>
+                </div>
                 <Accordion defaultActiveKey='0'>
                     <Accordion.Item>
                         <Accordion.Header>

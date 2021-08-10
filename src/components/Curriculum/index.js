@@ -7,7 +7,10 @@ function Curriculum (){
             <div className={styles.CurriculumItemsContainer}>
                 <div className={styles.CurriculumTitleContainer}>
                     <h1>Currículum</h1>
-                    <Button>Descargar PDF</Button>
+                    <a href='Curriculum.pdf' download
+                    className={styles.DownloadButton}>
+                        Descargar PDF
+                    </a>
                 </div>
                 <Accordion defaultActiveKey='0'>
                     <Accordion.Item>

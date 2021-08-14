@@ -8,13 +8,14 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-content: center;
     padding-bottom: 5px;
 }
 .DownloadButton{
     background-color: #0D6EFD;
     font-size: larger;
     border-radius: 5px;
-    padding: 5px;
+    padding: 10px;
     color: white;
     text-decoration: none;
     align-self: center;
@@ -22,6 +23,7 @@
 
 .DownloadButton:hover{
     color: white;
+    opacity: 1.1;
 }
 .CurriculumItemsContainer{
     width: 1460px;

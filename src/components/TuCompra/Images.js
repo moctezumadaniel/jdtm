@@ -9,7 +9,7 @@ function TuCompraImages(){
         window.open("https://github.com/moctezumadaniel/twocompra")
     }
     function goToApp(){
-        window.open("https://tucompra.vercel.app/")
+        window.open("https://tucompra2.vercel.app/")
     }
     return(
         <div className={styles.Carousel}>

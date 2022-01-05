@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #F3F3F3;
+  background-color: #f3f3f3;
 }
 
 .App-logo {
@@ -29,10 +29,11 @@
   color: #61dafb;
 }
 
-.InformationContainer{
+.InformationContainer {
   display: flex;
   flex-wrap: wrap;
 }
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

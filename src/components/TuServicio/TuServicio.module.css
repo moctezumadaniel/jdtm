@@ -1,33 +1,45 @@
-.TuCompraContainer{
-    justify-content: center;
-    width:400px;
+h1 {
+  font-weight: 600;
 }
-.Carousel{
-    width: 98vw;
-    max-width: 720px;
-    margin: 10px;
+.TuCompraContainer {
+  justify-content: center;
+  width: 400px;
 }
-.CarouselItem{
-    width: 570px;
-    height: 300px;
+.MainTitle::before {
+  content: "Proyecto TuServicio (en desarrollo)";
 }
-.AppButtonsContainer{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: space-around;
-    justify-content: space-around;
+.Carousel {
+  width: 98vw;
+  max-width: 720px;
+  margin: 10px;
 }
-.AppButton{
-    margin: 10px;
-    margin-left: 2px;
-    margin-right: 2px;
-    font-size: larger;
+.CarouselItem {
+  width: 570px;
+  height: 300px;
 }
-@media (max-width:320px) {
-    .AppButton{
-        width: 100%;
-        margin: 0px;
-        margin-bottom: 5px;
-        margin-top: 5px;
-    }
+.AppButtonsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: space-around;
+  justify-content: space-around;
+}
+.AppButton {
+  margin: 10px;
+  margin-left: 2px;
+  margin-right: 2px;
+  font-size: larger;
+}
+@media (max-width: 500px) {
+  .MainTitle::before {
+    content: "Proyecto TuServicio";
+  }
+}
+
+@media (max-width: 320px) {
+  .AppButton {
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
 }

@@ -80,14 +80,19 @@ function TuServicioImages() {
             Descripcion del proyecto TuServicio
           </Accordion.Header>
           <Accordion.Body>
-            Este proyecto esta construido con Nextjs, framework basado en
-            Reactjs, para el Front End y API's, conectado a una base de datos
-            MongoDB con ayuda de mongoosejs; y Redux para el manejo del estado
-            de la aplicación.{<br />}
+            Aplicación para buscar y ofrecer servicios, con funciones de citas y
+            otras utilidades rapidas relacionadas: calculadora, registros
+            rapidos de ingresos y de gastos <br />
+            <br />
+            Construido con Nextjs, framework basado en Reactjs, para el Front
+            End y API's, conectado a una base de datos MongoDB con ayuda de
+            mongoose.js; y Redux para el manejo del estado de la aplicación.
+            {<br />}
             {<br />}
             Resumen de tecnologias utilizadas:{<br />}
-            -Nextjs {<br />}
+            -JSX <br />
             -CSS{<br />}
+            -Nextjs {<br />}
             -MongoDB{<br />}
             -Mongoosejs{<br />}
             -React-redux{<br />}

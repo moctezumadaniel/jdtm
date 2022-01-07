@@ -12,11 +12,11 @@ function ListOfContacts() {
   const openGithub = () => {
     window.open("https://github.com/moctezumadaniel");
   };
-  const openLinkedIn = () => {
-    window.open(
-      "https://www.linkedin.com/in/juan-daniel-trejo-moctezuma-771a13228/"
-    );
-  };
+  // const openLinkedIn = () => {
+  //   window.open(
+  //     "https://www.linkedin.com/in/juan-daniel-trejo-moctezuma-771a13228/"
+  //   );
+  // };
   return (
     <div className={styles.ContactInformation}>
       <h1>Información de contacto</h1>
@@ -33,15 +33,15 @@ function ListOfContacts() {
             </u>
           </div>
 
-          <div
+          {/* <div
             className={styles.LinkedContactItem}
             onClick={() => openLinkedIn()}
           >
             <u>
               <b>LinkedIn: </b>
-              @danielmoctezuma
+              Juan Daniel Trejo Moctezuma
             </u>
-          </div>
+          </div> */}
 
           <div className={styles.ContactItem}>
             <b>Teléfono: </b>

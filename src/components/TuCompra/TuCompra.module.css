@@ -1,8 +1,8 @@
 .TuCompraContainer {
   justify-content: center;
 }
-.MainTitle::before {
-  content: "Proyecto TusCompras (en desarrollo)";
+.MainTitle::after {
+  content: " (en desarrollo)";
 }
 .Carousel {
   width: 98vw;
@@ -26,9 +26,9 @@
   font-size: larger;
 }
 
-@media (max-width: 500px) {
-  .MainTitle::before {
-    content: "Proyecto TusCompras";
+@media (max-width: 600px) {
+  .MainTitle::after {
+    content: "";
   }
 }
 @media (max-width: 320px) {

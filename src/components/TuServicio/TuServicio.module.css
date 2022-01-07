@@ -5,8 +5,8 @@ h1 {
   justify-content: center;
   width: 400px;
 }
-.MainTitle::before {
-  content: "Proyecto TuServicio (en desarrollo)";
+.MainTitle::after {
+  content: " (en desarrollo)";
 }
 .Carousel {
   width: 98vw;
@@ -29,9 +29,9 @@ h1 {
   margin-right: 2px;
   font-size: larger;
 }
-@media (max-width: 500px) {
-  .MainTitle::before {
-    content: "Proyecto TuServicio";
+@media (max-width: 600px) {
+  .MainTitle::after {
+    content: "";
   }
 }
 

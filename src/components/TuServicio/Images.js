@@ -12,7 +12,7 @@ function TuServicioImages() {
   }
   return (
     <div className={styles.Carousel}>
-      <h1 className={styles.MainTitle}></h1>
+      <h1 className={styles.MainTitle}>Proyecto TuServicio</h1>
       <Carousel interval={10000}>
         <Carousel.Item>
           <img

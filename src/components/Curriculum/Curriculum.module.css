@@ -1,44 +1,52 @@
-.CurriculumContainer{
-    display: flex;
-    justify-content: center;
-    margin: 10px;
+.CurriculumContainer {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
 }
 
-.CurriculumTitleContainer{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: center;
-    padding-bottom: 5px;
+.MainTitle {
+  margin: 0;
+  text-align: center;
+  height: fit-content;
 }
-.DownloadButton{
-    background-color: #0D6EFD;
-    font-size: larger;
-    border-radius: 5px;
-    padding: 10px;
-    color: white;
-    text-decoration: none;
-    align-self: center;
+.CurriculumTitleContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.DownloadButton {
+  background-color: #0d6efd;
+  font-size: larger;
+  border-radius: 5px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  text-decoration: none;
+  align-self: center;
 }
 
-.DownloadButton:hover{
-    color: white;
-    opacity: 1.1;
+.DownloadButton:hover {
+  color: white;
+  opacity: 1.1;
 }
-.CurriculumItemsContainer{
-    width: 1460px;
+.CurriculumItemsContainer {
+  width: 1460px;
 }
 
-.CurriculumItem{
+.CurriculumItem {
+  width: 720px;
+  justify-content: center;
+  align-content: center;
+}
+
+@media (max-width: 1494px) {
+  .CurriculumItemsContainer {
     width: 720px;
-    justify-content: center;
-    align-content: center;
-    
-}
-
-@media (max-width:1494px) {
-    .CurriculumItemsContainer{
-        width: 720px;
-    }
-    
+  }
 }

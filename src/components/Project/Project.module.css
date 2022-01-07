@@ -1,0 +1,41 @@
+.TuCompraContainer {
+  justify-content: center;
+}
+.MainTitle::after {
+  content: " (en desarrollo)";
+}
+.Carousel {
+  width: 98vw;
+  max-width: 720px;
+  margin: 10px;
+}
+.CarouselItem {
+  width: 570px;
+  height: 300px;
+}
+.AppButtonsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: space-around;
+  justify-content: space-around;
+}
+.AppButton {
+  margin: 10px;
+  margin-left: 2px;
+  margin-right: 2px;
+  font-size: larger;
+}
+
+@media (max-width: 600px) {
+  .MainTitle::after {
+    content: "";
+  }
+}
+@media (max-width: 320px) {
+  .AppButton {
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+}

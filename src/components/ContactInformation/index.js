@@ -18,10 +18,10 @@ function ListOfContacts() {
   //   );
   // };
   return (
-    <div className={styles.ContactInformation}>
-      <h1>Información de contacto</h1>
+    <div className={styles.ContactInformationContainer}>
+      <div className={styles.ContactInformationItemsContainer}>
+        <h1>Información de contacto</h1>
 
-      <div>
         <div className={styles.ContactInformation}>
           <div
             className={styles.LinkedContactItem}

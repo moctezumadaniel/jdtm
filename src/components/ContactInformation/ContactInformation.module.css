@@ -1,34 +1,43 @@
-.ContactInformationContainer{
-    display: flex;
-    justify-content: center;
-    margin:10px;
+.ContactInformationContainer {
+  display: flex;
+  justify-content: center;
 }
 
-.ContactInformation{
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1460px;
+.ContactInformationItemsContainer {
+  width: 1460px;
 }
 
-.LinkedContactItem{
-    cursor: pointer;
-    font-size: larger;
-    margin: 10px;
+.ContactInformation {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.ContactItem{
-    font-size: larger;
-    margin: 10px;
+.LinkedContactItem {
+  cursor: pointer;
+  font-size: larger;
+  margin: 10px;
 }
 
-.ContactImage{
-    width: 25px;
-    margin-right: 3px;
+.ContactItem {
+  font-size: larger;
+  margin: 10px;
 }
 
-@media (max-width:1494px) {
-    .ContactInformation{
-        max-width: 720px;
-    }
-    
+.ContactImage {
+  width: 25px;
+  margin-right: 3px;
+}
+
+@media (max-width: 1460px) {
+  .ContactInformationItemsContainer {
+    width: 720px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 720px) {
+  .ContactInformationItemsContainer {
+    width: 100%;
+    padding: 10px;
+  }
 }

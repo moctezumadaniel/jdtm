@@ -1,5 +1,5 @@
-.ProyectsContainer{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.ProyectsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }

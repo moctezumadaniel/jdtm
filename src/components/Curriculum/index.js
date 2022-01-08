@@ -6,7 +6,11 @@ function Curriculum() {
       <div className={styles.CurriculumItemsContainer}>
         <div className={styles.CurriculumTitleContainer}>
           <h1 className={styles.MainTitle}>Currículum</h1>
-          <a href="Curriculum.pdf" download className={styles.DownloadButton}>
+          <a
+            href="Juan Daniel Trejo Moctezuma.pdf"
+            download
+            className={styles.DownloadButton}
+          >
             Descargar PDF
           </a>
         </div>

@@ -1,16 +1,17 @@
-// import Project from "../Project";
+import Project from "../Project";
 import TuCompra from "../TuCompra";
 import TuServicio from "../TuServicio";
 import styles from "./Projects.module.css";
 function Projects() {
+  const comidayaDescription = `Aplicación para buscar y compartir recetas, además de la posibilidad de vender y comprar comidas.\nConstruido con Angular y sus respectivos complementos para el manejo de rutas, cliente http y NgRX para el manejo del estado global integrado con una base de datos Firebase`;
   return (
     <div className={styles.ProyectsContainer}>
       <TuServicio />
       <TuCompra />
-      {/* <Project
-        title="Proyecto de prueba"
-        appLink="https://www.google.com/"
-        codeLink="https://www.facebook.com/"
+      <Project
+        title="Proyecto ComidaYa"
+        appLink="https://comidaya.vercel.app/"
+        codeLink="https://github.com/moctezumadaniel/comidaya"
         images={[
           {
             src: "/TuCompra/1.jpg",
@@ -28,8 +29,8 @@ function Projects() {
             description: "Descripcion de la imagen",
           },
         ]}
-        description="Descripcion de prueba del proyecto"
-      /> */}
+        description={comidayaDescription}
+      />
     </div>
   );
 }

@@ -76,20 +76,18 @@ function TuServicioImages() {
       </div>
       <Accordion defaultActiveKey="0">
         <Accordion.Item>
-          <Accordion.Header>
-            Descripcion del proyecto TuServicio
-          </Accordion.Header>
+          <Accordion.Header>Descripcion del proyecto</Accordion.Header>
           <Accordion.Body>
             Aplicación para buscar y ofrecer servicios, con funciones de citas y
-            otras utilidades rapidas relacionadas: calculadora, registros
-            rapidos de ingresos y de gastos <br />
+            otras utilidades rápidas relacionadas: calculadora, registros
+            rápidos de ingresos y de gastos <br />
             <br />
             Construido con Nextjs, framework basado en Reactjs, para el Front
             End y API's, conectado a una base de datos MongoDB con ayuda de
             mongoose.js; y Redux para el manejo del estado de la aplicación.
             {<br />}
             {<br />}
-            Resumen de tecnologias utilizadas:{<br />}
+            Resumen de tecnologías utilizadas:{<br />}
             -JSX <br />
             -CSS{<br />}
             -Nextjs {<br />}

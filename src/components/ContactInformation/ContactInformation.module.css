@@ -28,10 +28,9 @@
   margin-right: 3px;
 }
 
-@media (max-width: 1460px) {
+@media (max-width: 1494px) {
   .ContactInformationItemsContainer {
     width: 720px;
-    padding: 10px;
   }
 }
 

@@ -88,26 +88,25 @@ function TuCompraImages() {
       <Accordion defaultActiveKey="0">
         <Accordion.Item>
           <Accordion.Header className={styles.AccordionHeader}>
-            Descripcion del proyecto TusCompras
+            Descripcion del proyecto
           </Accordion.Header>
           <Accordion.Body>
             Aplicación para buscar y vender productos, con reseñas, comentarios
-            y mensajeria entre clientes y vendedores para la resolucion de
+            y mensajería entre clientes y vendedores para la resolución de
             problemas
             <br />
             <br />
             Construido con Create React App para el Front End, conectado a una
-            base de datos MongoDB con ayuda de mongoosejs, Redux para el manejo
-            del estado de la aplicación y Express.js para la elaboración de
-            API's <br />
+            base de datos Firebase y Redux para el manejo del estado de la
+            aplicación. <br />
             <br />
-            Resumen de tecnologias utilizadas:{<br />}
+            Resumen de tecnologías utilizadas:{<br />}
             -JSX <br />
             -CSS{<br />}
-            -MongoDB{<br />}
-            -Mongoosejs{<br />}
+            -React{<br />}
+            -Firebase{<br />}
             -React-redux{<br />}
-            -Express{<br />}
+            -React-router{<br />}
           </Accordion.Body>
         </Accordion.Item>
       </Accordion>

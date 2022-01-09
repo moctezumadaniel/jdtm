@@ -3,7 +3,6 @@ import TuCompra from "../TuCompra";
 import TuServicio from "../TuServicio";
 import styles from "./Projects.module.css";
 function Projects() {
-  const comidayaDescription = `Aplicación para buscar y compartir recetas, además de la posibilidad de vender y comprar comidas.\nConstruido con Angular y sus respectivos complementos para el manejo de rutas, cliente http y NgRX para el manejo del estado global integrado con una base de datos Firebase`;
   return (
     <div className={styles.ProyectsContainer}>
       <TuServicio />
@@ -29,8 +28,24 @@ function Projects() {
             description: "Descripcion de la imagen",
           },
         ]}
-        description={comidayaDescription}
-      />
+      >
+        Aplicación para buscar y compartir recetas, además de la posibilidad de
+        vender y comprar comidas.
+        <br />
+        <br />
+        Construido con Angular y sus respectivos complementos para el manejo de
+        rutas, cliente http y NgRX para el manejo del estado global integrado
+        con una base de datos Firebase
+        <br />
+        <br />
+        Resumen de tecnologías utilizadas:{<br />}
+        -HTML <br />
+        -CSS{<br />}
+        -Typescript{<br />}
+        -NGRX{<br />}
+        -RxJS{<br />}
+        -Firebase{<br />}
+      </Project>
     </div>
   );
 }

@@ -2,20 +2,21 @@ import Button from "react-bootstrap/Button";
 import Carousel from "react-bootstrap/Carousel";
 import styles from "./Project.module.css";
 import Accordion from "react-bootstrap/Accordion";
+import { propTypes } from "react-bootstrap/esm/Image";
 
-function Project({ title, images, appLink, codeLink, description }) {
+function Project(props) {
   function goToCode() {
-    window.open(`${codeLink}`);
+    window.open(`${props.codeLink}`);
   }
   function goToApp() {
-    window.open(`${appLink}`);
+    window.open(`${props.appLink}`);
   }
   return (
     <div className={styles.Carousel}>
-      <h1 className={styles.MainTitle}>{title}</h1>
+      <h1 className={styles.MainTitle}>{props.title}</h1>
 
       <Carousel interval={10000}>
-        {images?.map((i) => (
+        {props.images?.map((i) => (
           <Carousel.Item>
             <img className="d-block w-100" alt={i.title} src={i.src} />
             <Carousel.Caption>
@@ -47,7 +48,7 @@ function Project({ title, images, appLink, codeLink, description }) {
           <Accordion.Header className={styles.AccordionHeader}>
             Descripción del proyecto
           </Accordion.Header>
-          <Accordion.Body>{description}</Accordion.Body>
+          <Accordion.Body>{props.children}</Accordion.Body>
         </Accordion.Item>
       </Accordion>
     </div>

@@ -1,6 +1,9 @@
 .TuCompraContainer {
   justify-content: center;
 }
+.MainTitle {
+  font-weight: 600;
+}
 .MainTitle::after {
   content: " (en desarrollo)";
 }

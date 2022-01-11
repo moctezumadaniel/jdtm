@@ -3,6 +3,9 @@
   justify-content: center;
 }
 
+.MainTitle {
+  font-weight: 600;
+}
 .ContactInformationItemsContainer {
   width: 1460px;
 }

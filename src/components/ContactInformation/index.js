@@ -20,7 +20,7 @@ function ListOfContacts() {
   return (
     <div className={styles.ContactInformationContainer}>
       <div className={styles.ContactInformationItemsContainer}>
-        <h1>Información de contacto</h1>
+        <h1 className={styles.MainTitle}>Información de contacto</h1>
 
         <div className={styles.ContactInformation}>
           <div

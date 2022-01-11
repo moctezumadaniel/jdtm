@@ -1,12 +1,86 @@
 import Project from "../Project";
-import TuCompra from "../TuCompra";
-import TuServicio from "../TuServicio";
 import styles from "./Projects.module.css";
 function Projects() {
   return (
     <div className={styles.ProyectsContainer}>
-      <TuServicio />
-      <TuCompra />
+      <Project
+        title="Proyecto TuServicio"
+        appLink="https://tuservicio.vercel.app/"
+        codeLink="https://github.com/moctezumadaniel/tuservicio"
+        images={[
+          {
+            src: "/TuCompra/1.jpg",
+            title: "Titulo de prueba",
+            description: "Descripcion de la imagen",
+          },
+          {
+            src: "/TuCompra/1.jpg",
+            title: "Titulo de prueba",
+            description: "Descripcion de la imagen",
+          },
+          {
+            src: "/TuCompra/1.jpg",
+            title: "Titulo de prueba",
+            description: "Descripcion de la imagen",
+          },
+        ]}
+      >
+        Aplicación para buscar y ofrecer servicios, con funciones de citas y
+        otras utilidades rápidas relacionadas: calculadora, registros rápidos de
+        ingresos y de gastos <br />
+        <br />
+        Construido con Nextjs, framework basado en Reactjs, para el Front End y
+        API's, conectado a una base de datos MongoDB con ayuda de mongoose.js; y
+        Redux para el manejo del estado de la aplicación.
+        {<br />}
+        {<br />}
+        Resumen de tecnologías utilizadas:{<br />}
+        -JSX <br />
+        -CSS{<br />}
+        -Nextjs {<br />}
+        -MongoDB{<br />}
+        -Mongoosejs{<br />}
+        -React-redux{<br />}
+        -Nextjs API Routes{<br />}
+      </Project>
+      <Project
+        title="Proyecto TusCompras"
+        appLink="https://tuscompras.vercel.app/"
+        codeLink="https://github.com/moctezumadaniel/tuscompras"
+        images={[
+          {
+            src: "/TuCompra/1.jpg",
+            title: "Titulo de prueba",
+            description: "Descripcion de la imagen",
+          },
+          {
+            src: "/TuCompra/1.jpg",
+            title: "Titulo de prueba",
+            description: "Descripcion de la imagen",
+          },
+          {
+            src: "/TuCompra/1.jpg",
+            title: "Titulo de prueba",
+            description: "Descripcion de la imagen",
+          },
+        ]}
+      >
+        Aplicación para buscar y vender productos, con reseñas, comentarios y
+        mensajería entre clientes y vendedores para la resolución de problemas
+        <br />
+        <br />
+        Construido con Create React App para el Front End, conectado a una base
+        de datos Firebase y Redux para el manejo del estado de la aplicación.{" "}
+        <br />
+        <br />
+        Resumen de tecnologías utilizadas:{<br />}
+        -JSX <br />
+        -CSS{<br />}
+        -React{<br />}
+        -Firebase{<br />}
+        -React-redux{<br />}
+        -React-router{<br />}
+      </Project>
       <Project
         title="Proyecto ComidaYa"
         appLink="https://comidaya.vercel.app/"

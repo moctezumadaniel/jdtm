@@ -2,7 +2,6 @@ import Button from "react-bootstrap/Button";
 import Carousel from "react-bootstrap/Carousel";
 import styles from "./Project.module.css";
 import Accordion from "react-bootstrap/Accordion";
-import { propTypes } from "react-bootstrap/esm/Image";
 
 function Project(props) {
   function goToCode() {

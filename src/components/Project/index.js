@@ -14,13 +14,11 @@ function Project(props) {
     <div className={styles.Carousel}>
       <h1 className={styles.MainTitle}>{props.title}</h1>
 
-      <Carousel interval={10000}>
+      <Carousel interval={10000} variant="dark" indicators={false}>
         {props.images?.map((i) => (
           <Carousel.Item>
             <img className="d-block w-100" alt={i.title} src={i.src} />
-            <Carousel.Caption>
-              <h3>{i.description}</h3>
-            </Carousel.Caption>
+            <Carousel.Caption></Carousel.Caption>
           </Carousel.Item>
         ))}
       </Carousel>

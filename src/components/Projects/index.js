@@ -9,17 +9,17 @@ function Projects() {
         codeLink="https://github.com/moctezumadaniel/tuservicio"
         images={[
           {
-            src: "/TuCompra/1.jpg",
+            src: "/TuServicio/1.jpg",
             title: "Titulo de prueba",
             description: "Descripcion de la imagen",
           },
           {
-            src: "/TuCompra/1.jpg",
+            src: "/TuServicio/1.jpg",
             title: "Titulo de prueba",
             description: "Descripcion de la imagen",
           },
           {
-            src: "/TuCompra/1.jpg",
+            src: "/TuServicio/1.jpg",
             title: "Titulo de prueba",
             description: "Descripcion de la imagen",
           },
@@ -49,17 +49,27 @@ function Projects() {
         codeLink="https://github.com/moctezumadaniel/tuscompras"
         images={[
           {
-            src: "/TuCompra/1.jpg",
+            src: "/TuCompra/tuscomprasInicio.webp",
             title: "Titulo de prueba",
             description: "Descripcion de la imagen",
           },
           {
-            src: "/TuCompra/1.jpg",
+            src: "/TuCompra/tuscomprasCompras.webp",
             title: "Titulo de prueba",
             description: "Descripcion de la imagen",
           },
           {
-            src: "/TuCompra/1.jpg",
+            src: "/TuCompra/tuscomprasVentas.webp",
+            title: "Titulo de prueba",
+            description: "Descripcion de la imagen",
+          },
+          {
+            src: "/TuCompra/tuscomprasMensajesVendedores.webp",
+            title: "Titulo de prueba",
+            description: "Descripcion de la imagen",
+          },
+          {
+            src: "/TuCompra/tuscomprasMenu.webp",
             title: "Titulo de prueba",
             description: "Descripcion de la imagen",
           },
@@ -87,19 +97,24 @@ function Projects() {
         codeLink="https://github.com/moctezumadaniel/comidaya"
         images={[
           {
-            src: "/TuCompra/1.jpg",
+            src: "/Comidaya/comidayaInicio.webp",
             title: "Titulo de prueba",
-            description: "Descripcion de la imagen",
+            description: "Encuentra y comparte recetas y comidas",
           },
           {
-            src: "/TuCompra/1.jpg",
+            src: "/Comidaya/comidayaRecetasFavoritas.webp",
             title: "Titulo de prueba",
-            description: "Descripcion de la imagen",
+            description: "Guarda tus recetas favoritas",
           },
           {
-            src: "/TuCompra/1.jpg",
+            src: "/Comidaya/comidayaComidasFavoritas.webp",
             title: "Titulo de prueba",
-            description: "Descripcion de la imagen",
+            description: "Guarda tus comidas favoritas",
+          },
+          {
+            src: "/Comidaya/comidayaMenu.webp",
+            title: "Titulo de prueba",
+            description: "Guarda tus comidas favoritas",
           },
         ]}
       >

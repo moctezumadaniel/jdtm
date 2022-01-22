@@ -9,17 +9,22 @@ function Projects() {
         codeLink="https://github.com/moctezumadaniel/tuservicio"
         images={[
           {
-            src: "/TuServicio/1.jpg",
+            src: "/TuServicio/tuservicioPerfil.webp",
             title: "Titulo de prueba",
             description: "Descripcion de la imagen",
           },
           {
-            src: "/TuServicio/1.jpg",
+            src: "/TuServicio/tuservicioHerramientas.webp",
             title: "Titulo de prueba",
             description: "Descripcion de la imagen",
           },
           {
-            src: "/TuServicio/1.jpg",
+            src: "/TuServicio/tuservicioMensajes.webp",
+            title: "Titulo de prueba",
+            description: "Descripcion de la imagen",
+          },
+          {
+            src: "/TuServicio/tuservicioMenu.webp",
             title: "Titulo de prueba",
             description: "Descripcion de la imagen",
           },

@@ -20,15 +20,9 @@ function Curriculum() {
               <h4>Desarrollador Front-End</h4>
             </Accordion.Header>
             <Accordion.Body>
-              Interesado en el diseño e implementación de interfaces para
-              aplicaciones web, además de la lógica de programación que permite
-              entregar una buena experiencia al usuario.
-              <br /> <br />
-              Enfocado en JavaScript y su ecosistema, con intereses a mediano
-              plazo para producir servicios Back-End con este lenguaje. <br />
-              <br />
-              Con intenciones de complementar mis conocimientos con Python, Java
-              y sus ecosistemas de aplicaciones en el servidor.
+            Me gusta trabajar tanto en el Front-End como en el Back-end, sobre todo en la compresión y
+            resolucion de la lógica del negocio para que los usuarios finales utilicen un producto de forma sencilla
+            y eficiente.
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>
@@ -39,14 +33,16 @@ function Curriculum() {
               <h4>Tecnologías</h4>
             </Accordion.Header>
             <Accordion.Body>
-              <b>Lenguajes de programación:</b>
+              <b>Lenguajes:</b>
               <br />
-              JavaScript, Typescript, HTML y CSS, SASS <br />
+              JavaScript, Typescript,
+              HTML, CSS, Golang, Java y SQL <br />
               <br />
-              <b>Frameworks/Sistemas:</b>
+              <b>Tecnologías:</b>
               <br />
-              Reactjs, Nextjs, Angular 2+, MongoDB, Mongoosejs, Figma, Git y
-              Github
+              Reactjs, Angular, Redux, Rxjs, Nextjs, Bootstrap, Jest, Jasmine, Karma,
+              MongoDB, AJAX, Linux, Git, Github, Nodejs, Express, Postman, Docker,
+              PostgreSQL, MySQL, Sequilize, GORM, Echo Framework y Spring Boot
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>

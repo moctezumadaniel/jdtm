@@ -31,13 +31,17 @@ function Project(props) {
         >
           Visitar Aplicación
         </Button>
+
+        {props.codeLink &&
+
         <Button
-          variant="dark"
-          className={styles.AppButton}
-          onClick={() => goToCode()}
+        variant="dark"
+        className={styles.AppButton}
+        onClick={() => goToCode()}
         >
+        
           {`</> Ir al Código`}
-        </Button>{" "}
+        </Button>}{" "}
       </div>
 
       <Accordion defaultActiveKey="0">

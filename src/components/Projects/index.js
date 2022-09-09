@@ -4,6 +4,44 @@ function Projects() {
   return (
     <div className={styles.ProyectsContainer}>
       <Project
+        title="Fullstack en Webookyou.com"
+        appLink="https://webookyou.com/"
+        
+        images={[
+          {
+            src: "/Webookyou/webookyou.com.webp",
+            title: "Titulo de prueba",
+            description: "Descripcion de la imagen",
+          },          
+        ]}
+      >
+        La aplicación principal es una Online Booking Tool con funcionalidades de roles, políticas de viajes,
+        manejo de presupuestos, notificación de solicitudes y otras herramientas que le permiten a empresas
+        reservar sus viajes y tener un buen control de sus viáticos. Estuve involucrado desde el levantamiento
+        de requerimientos y creación del primer demo del producto y en la implementación del Front End
+
+        <br />
+        <br />
+        Además, participe en aplicación complementaria para registrar y posteriormente consultar diferentes
+        tipos de servicios de acompañamiento a vuelos y estancias en hoteles, misma plataforma permite
+        elaborar cuentas para cada uno de los proveedores y que les permite definir categorías,
+        subcategorías, calendario de precios, cupos mínimos y máximos del producto, además de los
+        archivos complementarios para promocionar su producto dentro de cualquier Online Travel Angency
+        en la que se utilice esta aplicación. Estuve involucrado desde el levantamiento de requerimientos,
+        construcción y mantenimiento de algunos endpoints y elaboración del las interfaces
+        <br />
+        <br />
+        Resumen de tecnologías utilizadas:{<br />}
+        -Angular <br />
+        -HTML <br />
+        -CSS{<br />}
+        -Golang{<br />}
+        -GORM{<br />}
+        -Echo Framework{<br />}
+        -Postgres{<br />}
+        -Docker{<br />}
+      </Project>
+      <Project
         title="Proyecto TuServicio"
         appLink="https://tuservicio.vercel.app/"
         codeLink="https://github.com/moctezumadaniel/tuservicio"
